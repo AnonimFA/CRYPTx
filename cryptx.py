@@ -322,4 +322,3 @@ Powered by AnonimFA
 except KeyboardInterrupt:
     print("\n\n" + R + "[!] Error! Keyboard interrupt!")
     exit()
-# !
