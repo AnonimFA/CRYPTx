@@ -18,7 +18,7 @@ Y = '\033[93m'
 M = '\033[95m'
 G = '\033[90m'
 
-version = "1.1.0"
+version = "1.1.1"
 
 cls = lambda: os.system("clear")
 
@@ -35,7 +35,7 @@ def main_print():
 #  / /   / /_/ /\  / /_/ / / / | |/_/ #
 # / /___/ _, _/ / / ____/ / / _>  <   #
 # \____/_/ |_| /_/_/     /_/ /_/|_|   #
-#                 v1.1.0 by AnonimFA  #
+#                 v1.1.1 by AnonimFA  #
 #######################################''')
 
 def animate_en():
@@ -77,7 +77,7 @@ def cheak():
             print("\n" + Y + "[*] Updating...")
             subp.check_output(["git", "reset", "--hard", "origin/master"])
             subp.check_output(["git", "pull"])
-            print("\n" + G + "[+] Update compleated! Now installed version: " + W + update)
+            print("\n" + B + "[+] Update compleated! Now installed version: " + W + update)
             ex()
 
         elif ans == "n":
@@ -294,7 +294,7 @@ try:
                             done = False
                             t = threading.Thread(target=animate_de)
                             t.start()
-
+                            time.sleep(5)
                             done = True
                             time.sleep(5)
                             break
@@ -310,13 +310,11 @@ try:
             print(W + '''
 Powered by AnonimFA
     https://github.com/AnonimFA
-- CRYPTx v1.1.0
+- CRYPTx v1.1.1
 - Any news:
-    *Added AES crypting
-    *Fixed some bugs
-    *Crypted file allready exist error deleted
-
+    *Small patch
 ''')
+            time.sleep(10)
             continue
 
 except KeyboardInterrupt:

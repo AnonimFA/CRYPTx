@@ -4,9 +4,19 @@ CRYPTx v1.1.0 by AnonimFA.
 • Tested with Kali Linux and Termux.
 • This script can work with big files.
 
+Any news:
+-v1.1.0
+  *Added AES crypting
+  *Fixed some bugs
+  *Crypted file allready exist error deleted
+-v1.1.1
+  *Fixed some bugs
+
 Installing:
 $ apt update
-$ apt install python3 
+$ git clone https://github.com/AnonimFA/CRYPTx
+$ cd CRYPTx
+$ apt install python3
 $ pip install requests
 $ pip install pyAesCrypt
 $ pip install subprocess
@@ -14,6 +24,6 @@ $ python3 cryptx.py
 
 Enjoy!
 
-If you have any questions, write to me: 
+If you have any questions, write to me:
  -Vk https://vk.com/id274344456
  -Gmail anonimus140119@gmail.com
