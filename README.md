@@ -31,7 +31,7 @@ $ cd CRYPTx
 $ pip install requests
 $ pip install pyAesCrypt
 $ pip install subprocess
-$ python3 cryptx.py
+$ python3 cmd_cryptx.py
 Enjoy!
 
 If you have any questions, write to me:
