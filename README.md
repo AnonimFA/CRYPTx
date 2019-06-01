@@ -1,5 +1,5 @@
 # CRYPTx
-CRYPTx v1.1.2 by AnonimFA.
+<br>CRYPTx v1.1.2 by AnonimFA.</br>
 • CRYPTx - Files crypter. Now it have BASE64 and AES crypting.
 • Tested with Kali Linux, Termux and Windows.
 • This script can work with big files.
